@@ -1,0 +1,36 @@
+body{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   text-underline-position: under;
+   text-align: center;
+   word-wrap: break-word;
+   font-family: 'Nunito', sans-serif;
+}
+
+.app-title{
+   color: purple;
+}
+
+.board-wrap{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   border: 1px solid purple;
+   margin: auto;
+}
+
+.board-title-wrap{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+}
+
+.board-title-wrap div{
+   width: 50%;
+
+}
